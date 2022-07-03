@@ -12,11 +12,13 @@ var $numberOfColors = 27;
 function init()
 {
 	global $config;
+    $this->eso->addToFooter("Skin by Andromeda-Z <a href='https://github.com/andromeda-Z/classic'>(view it on github)</a>", "10");
 	$this->eso->addCSS("skins/{$config["skin"]}/base.css");
 	$this->eso->addCSS("skins/{$config["skin"]}/classic.css");
 	$this->eso->addCSS("skins/{$config["skin"]}/ie6.css", "ie6");
 	$this->eso->addCSS("skins/{$config["skin"]}/ie7.css", "ie7");
 	$this->eso->addToHead("<link rel='shortcut icon' type='image/ico' href='skins/{$config["skin"]}/favicon.ico'/>");
+    $this->eso->addToHead("<!-- classic skin by Andromeda-Z https://github.com/andromeda-Z/classic -->");
 }
 
 // Generate button HTML.
