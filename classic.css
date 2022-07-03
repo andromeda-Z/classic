@@ -165,9 +165,6 @@ blockquote {background:#eee; background:rgba(0, 0, 0, .07); border:solid #ccc; b
 /* Profile */
 .profile .form li {border-bottom:1px solid rgba(0,0,0,0.1)}
 
-/* Footer */
-#ftr #copyright {border:1px dashed #ccc}
-
 /* Inputs, buttons, and other form elements */
 input.text, textarea {background:#fff; border:1px solid #bbb}
 input.text:focus, textarea:focus {border-color:#777}
